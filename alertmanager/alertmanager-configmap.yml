@@ -36,14 +36,14 @@
       receivers:
       - name: alert-emailer
         email_configs:
-        - to: amulya.malla@srijan.net
+        - to: k8s@gmail.com
           send_resolved: false
           from: prometheusoncorps@gmail.com
           smarthost: 'smtp.gmail.com:587'
-          auth_username: prometheusoncorps@gmail.com
-          auth_password: amulya123
-          auth_secret: prometheusoncorps@gmail.com
-          auth_identity: prometheusoncorps@gmail.com
+          auth_username: k8s@gmail.com
+          auth_password: 12345
+          auth_secret: k8s@gmail.com
+          auth_identity: k8s@gmail.com
    
     slack.tmpl: |
       {{ define "__single_message_title" }}{{ range .Alerts.Firing }}{{ .Labels.alertname }} @ {{ .Annotations.identifier }}{{ end }}{{ range .Alerts.Resolved }}{{ .Labels.alertname }} @ {{ .Annotations.identifier }}{{ end }}{{ end }}
