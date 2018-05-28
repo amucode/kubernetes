@@ -3,7 +3,7 @@ variable "region" {
 }
 
 variable "bucket_name" {
-  default = "dev.oncorps.cluster.k8s.local"
+  default = "dev.kukudkoo.cluster.k8s.local"
 }
 
 variable "cidr_block" {
@@ -11,7 +11,7 @@ variable "cidr_block" {
 }
 
 variable "Name" {
-  default = "oncorps.k8s.local"
+  default = "kukudkoo.k8s.local"
 }
 
 variable "domain_name" {

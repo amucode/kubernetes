@@ -20,7 +20,7 @@
         "s3:ListBucket"
       ],
       "Resource": [
-        "arn:aws:s3:::dev.oncorps.cluster.k8s.local"
+        "arn:aws:s3:::dev.kukudkoo.cluster.k8s.local"
       ]
     },
     {
@@ -30,15 +30,15 @@
         "s3:Get*"
       ],
       "Resource": [
-        "arn:aws:s3:::dev.oncorps.cluster.k8s.local/oncorps.k8s.local/addons/*",
-        "arn:aws:s3:::dev.oncorps.cluster.k8s.local/oncorps.k8s.local/cluster.spec",
-        "arn:aws:s3:::dev.oncorps.cluster.k8s.local/oncorps.k8s.local/config",
-        "arn:aws:s3:::dev.oncorps.cluster.k8s.local/oncorps.k8s.local/instancegroup/*",
-        "arn:aws:s3:::dev.oncorps.cluster.k8s.local/oncorps.k8s.local/pki/issued/*",
-        "arn:aws:s3:::dev.oncorps.cluster.k8s.local/oncorps.k8s.local/pki/private/kube-proxy/*",
-        "arn:aws:s3:::dev.oncorps.cluster.k8s.local/oncorps.k8s.local/pki/private/kubelet/*",
-        "arn:aws:s3:::dev.oncorps.cluster.k8s.local/oncorps.k8s.local/pki/ssh/*",
-        "arn:aws:s3:::dev.oncorps.cluster.k8s.local/oncorps.k8s.local/secrets/dockerconfig"
+        "arn:aws:s3:::dev.kukudkoo.cluster.k8s.local/kukudkoo.k8s.local/addons/*",
+        "arn:aws:s3:::dev.kukudkoo.cluster.k8s.local/kukudkoo.k8s.local/cluster.spec",
+        "arn:aws:s3:::dev.kukudkoo.cluster.k8s.local/kukudkoo.k8s.local/config",
+        "arn:aws:s3:::dev.kukudkoo.cluster.k8s.local/kukudkoo.k8s.local/instancegroup/*",
+        "arn:aws:s3:::dev.kukudkoo.cluster.k8s.local/kukudkoo.k8s.local/pki/issued/*",
+        "arn:aws:s3:::dev.kukudkoo.cluster.k8s.local/kukudkoo.k8s.local/pki/private/kube-proxy/*",
+        "arn:aws:s3:::dev.kukudkoo.cluster.k8s.local/kukudkoo.k8s.local/pki/private/kubelet/*",
+        "arn:aws:s3:::dev.kukudkoo.cluster.k8s.local/kukudkoo.k8s.local/pki/ssh/*",
+        "arn:aws:s3:::dev.kukudkoo.cluster.k8s.local/kukudkoo.k8s.local/secrets/dockerconfig"
       ]
     },
     {
@@ -47,7 +47,7 @@
       "Action": [
         "s3:Get*"
       ],
-      "Resource": "arn:aws:s3:::dev.oncorps.cluster.k8s.local/oncorps.k8s.local/pki/private/calico-client/*"
+      "Resource": "arn:aws:s3:::dev.kukudkoo.cluster.k8s.local/kukudkoo.k8s.local/pki/private/calico-client/*"
     },
     {
       "Sid": "kopsK8sECR",
