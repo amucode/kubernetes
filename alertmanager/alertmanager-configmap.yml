@@ -36,9 +36,9 @@
       receivers:
       - name: alert-emailer
         email_configs:
-        - to: k8s@gmail.com
+        - to: amulya@gmail.com         #Receiver email id
           send_resolved: false
-          from: prometheusoncorps@gmail.com
+          from: k8s@gmail.com          #Sender Email id
           smarthost: 'smtp.gmail.com:587'
           auth_username: k8s@gmail.com
           auth_password: 12345
