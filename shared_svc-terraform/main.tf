@@ -1,7 +1,7 @@
 provider "kubernetes" {
   host        = "https://127.0.0.1"
   username    = "admin"
-  password    = "XdArWQrvaslmYWkhjo6ec1bdJpEi5jY6"
+  password    = "XdArWBrvaslmYWkhjo8ec1bdJpEi5jY6"
   config_path = "/Users/amulya/.kube/config"
 }
 
